@@ -42,7 +42,8 @@ timezone:      null
 title: Vania
 subTitle: Just Vania's  blog.
 description: 这是 Vania 的博客。这里是用来快速记录工作，学习，生活的一点一滴的地方
-url: http://localhost:4000
+url: http://vania123.github.io/vania-blog
+#url: http://localhost:4000
 feed: /atom.xml
 
 #菜单配置
