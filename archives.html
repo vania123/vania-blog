@@ -14,9 +14,9 @@ url: http://vania123.github.io/vania-blog/
     <div class="violet-post">
         <div class="main-article-contant">
 
-            {% capture post_year1 %}{{  date: '%Y' }}{% endcapture %}
-<!--             <h3>{{ post_year1 }}</h3>
- -->            <ul class="article-year fn-clear">
+            <!-- {% capture post_year1 %}{{  date: '%Y' }}{% endcapture %} -->
+            <!-- <h3>{{ post_year1 }}</h3> -->
+            <ul class="article-year fn-clear">
                 {% for post in site.posts %}
                     {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
                     {% if post_year1 != post_year2 %}
