@@ -476,17 +476,17 @@ a:hover {
 .main-article blockquote p {
     color: #8d8d8d;
 }
-.main-article img {
+/*.main-article img {
     margin: 20px 0 24px 0;
     background: #f0f0f0;
     padding: 4px 4px;
     border: 1px solid #a8a8a8;
     display: block;
     opacity: 0.8;
-}
-.main-article img:hover {
+}*/
+/*.main-article img:hover {
     opacity: 1;
-}
+}*/
 .main-article table {
     position: relative;
     width: 100%;
