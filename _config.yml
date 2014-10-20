@@ -3,7 +3,7 @@ source:       .
 destination:  ./_site
 plugins:      ./_plugins
 layouts:      ./_layouts
-paginate:     2
+paginate:     8
 
 # Handling Reading
 safe:         false
