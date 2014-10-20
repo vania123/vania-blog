@@ -6,7 +6,6 @@ keywords: PIZn, GitHub, Archives, mac, css, html, javascript, violet, Jekyll, pl
 isArchive: true
 url: http://vania123.github.io/vania-blog/
 ---
-
 <article class="main-article main-article-page">
     <div class="violet-title">
         <h3 class="violet-title-item">我的所有文章<span>({{ site.posts | size }} 篇)</span></h3>
@@ -14,15 +13,15 @@ url: http://vania123.github.io/vania-blog/
     <div class="violet-post">
         <div class="main-article-contant">
 
-            <!-- {% capture post_year1 %}{{  date: '%Y' }}{% endcapture %} -->
-            <!-- <h3>{{ post_year1 }}</h3> -->
+            {% capture post_year1 %}{{  date: '%Y' }}{% endcapture %}
+            <h3>{{ post_year1 }}</h3>
             <ul class="article-year fn-clear">
                 {% for post in site.posts %}
                     {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
                     {% if post_year1 != post_year2 %}
                         {% assign post_year1 = post_year2 %}
             </ul>
-            <!-- <h3>{{ post_year1 }}</h3> -->
+            <h3>{{ post_year1 }}</h3>
             <ul class="article-year fn-clear">
                     {% endif %}
                 <li>
