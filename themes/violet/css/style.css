@@ -422,6 +422,8 @@ a:hover {
 .main-article h3 { font-size: 24px; margin-bottom: 24px; margin-top: 36px; font-weight: bold;}
 .main-article h4 { font-size: 20px; margin-bottom: 20px; margin-top: 36px; font-weight: bold;}
 .main-article h5 { font-size: 18px; margin-bottom: 20px; margin-top: 36px; font-weight: bold; }
+.main-article h6 { font-size: 14px; margin-bottom: 20px; margin-top: 36px; font-weight: bold; }
+
 .main-article pre {
     margin: 30px 0px 30px 0px;
     padding: 13px 20px;
