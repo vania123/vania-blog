@@ -453,12 +453,10 @@ a:hover {
 }
 
 .main-article ol {
-list-style-type: decimal-leading-zero;
-font-size: 16px;
-line-height: 1.6;
-margin-bottom: 24px;
-padding-left: 20px;
-
+    list-style-type: lower-alpha;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 20px;
 }
 
 .main-article em { font-style: italic; }
