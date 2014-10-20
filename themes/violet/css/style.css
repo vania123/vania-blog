@@ -452,8 +452,13 @@ a:hover {
     padding-left: 20px;
 }
 .main-article ol {
-    list-style-type: decimal-leading-zero;
+list-style-type: decimal-leading-zero;
+font-size: 16px;
+line-height: 1.6;
+margin-bottom: 24px;
+
 }
+
 .main-article em { font-style: italic; }
 .main-article strong { font-weight: bold; }
 .main-article blockquote {
